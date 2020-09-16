@@ -62,6 +62,7 @@ div {
 }
 
 footer p {
+    /* if a text has multiple padding, don't use padding-*, will overwrite */
     text-align: right;
     padding: 0px 10px 10px 0px;
 }
