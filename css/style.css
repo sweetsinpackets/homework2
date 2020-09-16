@@ -1,0 +1,68 @@
+body {
+    /* uses global, so directly in body */
+    font-family: 'Lucida Grande', 'sans-serif';
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+h1 {
+    font-size: 64px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    text-shadow: #808080 5px 5px 2px;
+}
+
+p {
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+/* FIXME: alt */
+img {
+    /* we need it to be a box to apply width and occupy a line */
+    display: block;
+    /* if both side is auto, then it's in the center */
+    margin: auto auto;
+    width: 525px;
+}
+
+div {
+    min-height: 150px;
+    padding: 25px;
+}
+
+#red {
+    background-color: #FF0000;
+    text-align: right;
+}
+
+#blue {
+    background-color: #0000FF;
+    text-align: left;
+}
+
+#yellow {
+    background-color: #FFFF00;
+    text-align: right;
+}
+#yellow h2 {
+    color: black;
+    text-shadow: #c7e2c7 5px 5px 2px;
+}
+#yellow p{
+    color: black
+}
+
+#green {
+    background-color: #008000; 
+    text-align: left;
+}
+
+footer p {
+    text-align: right;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
